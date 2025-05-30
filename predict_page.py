@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 def load_model():
-    with open(r"Titanic\pipline_titanic.joblib",'rb') as file:
+    with open("pipline_titanic.joblib",'rb') as file:
         data = joblib.load(file)
     return data
 
